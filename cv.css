@@ -39,15 +39,15 @@ nav a{
 }
 /*le changement de couleur lorsque l'on passe dessus*/
 nav a:hover{
-    color: orange;
+    color: hotpink;
     border-bottom: 2px saddlebrown;
 }
 /* sticky colle et top 0px est coller sur le dessus*/
 nav{
     width: 100%;
     margin: 0 auto;
-    background-color: floralwhite;
-    position: sticky;
+    background-color: darksalmon;
+    position: static;
     top: 0px;
 }
 
