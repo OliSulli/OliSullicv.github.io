@@ -85,7 +85,7 @@ section > div{
 .photo img{
     width: 200px;
     height: 200px;
-    border: 3px solid saddlebrown;
+    border: 3px solid lightsalmon;
     box-shadow: 5px 5px 10px lightsalmon;
     border-radius: 50%;
     margin-top: -100px;
@@ -170,9 +170,9 @@ section > div{
 }
 .conteneur-barre{
     flex: 0 0 50%;
-    border-radius: 1px;
+    border-radius: 10px;
     background-color: saddlebrown;
-    border-bottom: 20px saddlebrown;
+    border-bottom: 10px saddlebrown;
 }
 
 .barre{
