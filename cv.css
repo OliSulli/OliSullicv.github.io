@@ -84,7 +84,7 @@ section > div{
 }
 .photo img{
     width: 200px;
-    height: 200px;
+    height: 150px;
     border: 3px solid lightsalmon;
     box-shadow: 5px 5px 10px lightsalmon;
     border-radius: 50%;
