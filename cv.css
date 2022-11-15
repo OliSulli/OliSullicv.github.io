@@ -22,7 +22,7 @@ p{
 
 a{
     text-decoration: none;
-    color: darkorange;
+    color: deeppink;
 }
 
 /*HEADER FOOTER*/
@@ -55,7 +55,7 @@ footer p{
     text-align: center;
 }
 footer a{
-    color: saddlebrown;
+    color: hotpink;
 }
 
 /*SECTIONS*/
@@ -171,8 +171,8 @@ section > div{
 .conteneur-barre{
     flex: 0 0 50%;
     border-radius: 1px;
-    background-color: darkorange;
-    border-bottom: 20px darkorange;
+    background-color: saddlebrown;
+    border-bottom: 20px saddlebrown;
 }
 
 .barre{
@@ -210,7 +210,7 @@ section > div{
     height: 1em;
     margin-bottom: 0.5em;
     border-radius: 5px;
-    background-color: darkorange;
+    background-color: saddlebrown;
 }
 
 .interet{
