@@ -8,6 +8,47 @@
     margin: 0px;
     text-align: justify;
     box-sizing: border-box;
+    color: saddlebrown;
+}
+nav ul{
+    list-style-type: none;
+}
+/*le float */
+nav li{
+    float: left;:
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+/*txt dec. pour enlever la barre de souilignement du lien c'est bien pour le hover*/
+nav a{
+    display: block;
+    text-decoration: none;
+    color: saddlebrown;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+/*le changement de couleur lorsque l'on passe dessus*/
+nav a:hover{
+    color: orange;
+    border-bottom: 2px saddlebrown;
+}
+/* sticky colle et top 0px est coller sur le dessus*/
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: floralwhite;
+    position: sticky;
+    top: 0px;
 }
 
 body{
@@ -74,7 +115,9 @@ section{
 section h2{
     margin: 25px 0;
     width: 90%;
+    color: saddlebrown;
 }
+
 section > div{
     width: 90%;
 }
@@ -121,9 +164,11 @@ section > div{
 }
 
 .social{
+    flex: 0 1 50%;
     display: flex;
     justify-content: space-around;
     margin: 90px auto 0px auto;
+    
 }
 .social img{
     width: 60px;
@@ -167,6 +212,13 @@ section > div{
 }
 .comp p{
     flex: 0 0 40%;
+}
+.h3gauche {
+    color: saddlebrown;
+    float: left;
+    font-size: 1.2em;
+    margin: ;
+
 }
 .conteneur-barre{
     flex: 0 0 50%;
@@ -272,4 +324,3 @@ section > div{
         width: 80%;
     }
 }
-
