@@ -257,7 +257,7 @@ section > div{
     flex: 0 1 25%;
 }
 
-@media screen, and (min-width: 980px){
+@media screen, and (min-width: 780px){
     section{
         width: 80%;
         box-shadow: 5px 5px 10px lightsalmon;
