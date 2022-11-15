@@ -27,7 +27,7 @@ nav ul::after{
 nav li{
     float: left;
     width: 20%;
-    text-align: center;
+    text-align: justify;
 }
 /*txt dec. pour enlever la barre de souilignement du lien c'est bien pour le hover*/
 nav a{
