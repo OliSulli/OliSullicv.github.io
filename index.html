@@ -9,24 +9,31 @@
   	<header>
   		<h1>CV de Olivia Sullivan</h1>
   
-    <nav>
- 
-  <ul>
-
-    <li><a href="#">Qui-suis je?</a></li>
-    <li><a href="#">Experience professionelles</a></li>
-    <li><a href="#">Formation</a></li>
-    <li><a href="#">Compétences</a></li>
-    <li><a href="#">Centre d'intêrets</a></li>
-  
-  </ul>
+   
 </header>
   	<section>
   		<div class="photo">
   			<img src="shinobu.webp" alt="Ma photo de profil" width="30%">
   		<div class="prez">
-  			<h2>Qui suis-je?</h2>
-  			<p></p>
+
+
+
+        <nav>
+
+         <ul>
+<!--créer une ancre <div id="qui suis je?"></div> et un lien vers cet ancre <a href="#qui suis je">Qui-suis je?</a> il faut toujours un "id" pour pouvoir créer une ancre et ensuit créer un lien qui commence par "#"-->
+    <li><a href="#Qui-suis je?">Qui-suis je?</a></li>
+    <li><a href="#Experience">Experience </a></li>
+    <li><a href="#Formation">Formation</a></li>
+    <li><a href="#Competence">Compétences</a></li>
+    <li><a href="#Interets">Centre d'intêrets</a></li>
+  
+  </ul>
+</nav>
+<div id="Qui-suis je?">
+  			<h2>Qui suis-je?</h2></div>
+  			<p>Désireuse d'apprendre et de relever de nouveaux challenges.
+Mes qualités : Ponctuelle, flexible, organisée, déterminée et curieuse.</p>
   			<a href="#" download>Télécharger mon CV</a>
   		</div>
   		<div class="contact">
@@ -59,7 +66,8 @@
         </figure>
   	</section>
   	<section>
-  		<h2>Expériences Professionelles</h2>
+      <div id="Experience">
+  		<h2>Expériences Professionelles</h2></div>
   		<div class="exp">
   			<div class="exp-logo">
   				<img src="RimuruFight.png" alt="Expériences" width="5%">
@@ -70,25 +78,27 @@
   				<h4>2014 - 2019</h4>
   			</div>
   			<div class="exp-desc">
-  				<p>blablabla</p>
+  				<p>Préparation des produits et leurs mise en place, vente, prise de commande et inventaire</p>
   			</div>
   		</section>
   		<section>
-  			<h2>Formation</h2>
+        <div id="Formation">
+  			<h2>Formation</h2></div>
   			<div class="exp">
   				<div class="exp-logo">
   					<img src="Shizu.png" alt="logo" width="5%">
   				</div>
   				<div class="exp-info">
   					<h3>Lycée François Rabelais</h3>
-  					<h4>année</h4>
+  					<h4>2010-2012</h4>
   				</div>
   				<div class="exp-desc">
-  					<p>blablabla</p>
+  					<p>Ecole d'hotellerie restauration</p>
   				</div>
   			</section>
   			<section>
-  				<h2>Compétences</h2>
+          <div id="Competence">
+  				<h2>Compétences</h2></div>
   				<h3 class="h3gauche">Professionelles</h3>
           <div class="comp">
   					<p>HTML / CSS</p>
@@ -107,9 +117,14 @@
   						<p>Sens de prise d'initiative</p>
   						<div class="conteneur-barre2"><span class="barre c85"></span></div>
   					</div>
+            <div class="comp2">
+              <p>Rigoureuse</p>
+              <div class="conteneur-barre2"><span class="barre c80"></span></div>
+            </div>
   			</section>
   			<section>
-  				<h2>Centre d'intêrets</h2>
+          <div id="Interets">
+  				<h2>Centre d'intêrets</h2></div>
   				<figure class="interet">
   					<img src="Ranga.png" alt="logo" width="5%">
   					<figcaption>Chien</figcaption>
