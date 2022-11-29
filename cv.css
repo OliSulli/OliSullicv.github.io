@@ -37,7 +37,7 @@ nav a{
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
-/*le changement de couleur lorsque l'on passe dessus*/
+/*le changement couleur lorsque l'on passe dessus avec la souris*/
 nav a:hover{
     color: hotpink;
     border-bottom: 2px saddlebrown;
@@ -317,7 +317,7 @@ section > div{
     }
     
     a:hover{
-        color: saddlebrown;
+        color: rgba(242, 0, 255, 0.737)
     }
 
     header h1{
